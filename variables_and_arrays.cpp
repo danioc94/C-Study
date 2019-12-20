@@ -25,9 +25,8 @@ int main() {
 	for (int i=0; i<5; i++)
 	{
 	    cout<<static_arr[i]<<" ";
+	    cout<<*(p + i)<<" ";
 	}
-	
-	
 	
 	return 0;
 }
